@@ -1,0 +1,48 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww6880\viewh11740\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\b\fs24 \cf0 1. Wireframes
+\b0 \
+\
+
+\b 2. Set up package management 
+\b0 (Set up a way to use libraries    once you get them added in.)\
+	- node.js (think of javascript as a programming language. 	Node.js is for computers that don\'92t have a person sitting 	at them, and javascript is for computers that have users 	sitting in front of them. Not always that clearly defined). \
+		- javascript library so that take any specified 			  actions within the application that you are writing. \
+		- This is the gatekeeper between the client side 		  and the data. \
+		- Communicates requests through to the database.\
+		- AND finds the thing requested from the 			  database\
+ 		- AND returns the thing to the client side.\
+	- NPM  (NODE PACKAGE MANAGER, when you install 	node.js) \
+		- can be used independent of node.js\
+\
+
+\b 3. Create a package.json file in the root of the project. 
+\b0 \
+ - run \'93npm init\'94 This package will install Node.js v4.1.0 and npm v2.14.3 into /usr/local/ \
+	\
+
+\b 4. Add task automation framework, like grunt or gulp
+\b0 \
+	- I\'92m using GULP. \
+	- Why? Because if you go to change you document, you 	have to constantly click refresh without that. Using 		automation helps you with package management so that 	you don\'92t have to keep calling the CDN (by using 		BOWER).  \
+	- Also gives you a runner for your unit tests\
+	- Also allows you to use LESS and SASS. \
+	- {\field{\*\fldinst{HYPERLINK "https://www.npmjs.com/package/gulp-cli"}}{\fldrslt https://www.npmjs.com/package/gulp-cli}}\
+\
+
+\b 5. Create a gulp task. 
+\b0 \
+	- browser-sync (handles all the live reload so you don\'92t 	have to keep refreshing). \
+	- {\field{\*\fldinst{HYPERLINK "https://www.npmjs.com/package/browser-sync"}}{\fldrslt https://www.npmjs.com/package/browser-sync}}\
+	-  But this one is better :{\field{\*\fldinst{HYPERLINK "http://www.browsersync.io/docs/gulp/"}}{\fldrslt http://www.browsersync.io/docs/gulp/}}\
+\
+TO DO:\
+1. (Start developing index.html. Check out other gulp tasks)\
+\
+\
+\
+}

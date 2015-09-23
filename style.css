@@ -1,0 +1,46 @@
+/*background*/
+body {
+	background-color: #e2e0e0;
+}
+
+/*name*/
+.name {
+	font-family: Oswald, helvetica, sans-serif;
+	font-size: 1rem;
+	color: #dd4e4e;
+	text-align: center; 
+}
+
+/*nav = nav links*/
+.nav >h1{
+	font-family: pt-mono, montserrat, serif;
+	font-size: 0.1103rem;
+	color: 000;
+	display: inline-block;
+}
+
+/*-----------------------links Styles-----------------------*/
+
+/* unvisited link */
+body a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+/* visited link */
+body a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #dd4e4e;
+  text-decoration: bold;
+}
+
+/* selected link */
+a:active {
+  color: #dd4e4e;
+  text-decoration: none;
+}

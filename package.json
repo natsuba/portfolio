@@ -1,0 +1,33 @@
+{
+  "name": "nbaudrand_portfolio",
+  "version": "1.0.0",
+  "description": "N Baudrand's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natsuba/portfolio.git"
+  },
+  "keywords": [
+    "UX",
+    "User",
+    "Experience",
+    "Nathalie",
+    "Baudrand",
+    "Baudrand",
+    "Portfolio",
+    "Design"
+  ],
+  "author": "Nathalie Baudrand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natsuba/portfolio/issues"
+  },
+  "homepage": "https://github.com/natsuba/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "gulp": "^3.9.0"
+  }
+}
